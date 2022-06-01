@@ -47,8 +47,8 @@ const styles = StyleSheet.create({
     borderColor: 'green',
     marginTop: '5%',
     marginBottom: '5%',
-    marginLeft: '15%',
-    marginRight: '25%',
+    marginLeft: '30%',
+    marginRight: '30%',
     
 
   },
