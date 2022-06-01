@@ -1,31 +1,37 @@
 import React from 'react'
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-     <View style={styles.container}>
+  <View style={styles.container}>
     <View style={styles.coulumBox}>
-       <Text style={styles.columnText}>Column</Text>
-    <View style={styles.childBox}>
-      <Text style={styles.boxText}>Child</Text> </View>
-    <View style={styles.childBox}>
-      <Text style={styles.boxText}>Child</Text> </View>
-    <View style={styles.childBox}>
-      <Text style={styles.boxText}>Child</Text></View>
+      <Text style={styles.columnText}>Column</Text>
+        <View style={styles.childBox}>
+          <Text style={styles.boxText}>Child</Text> 
+        </View>
+          <View style={styles.childBox}>
+             <Text style={styles.boxText}>Child</Text> 
+           </View>
+              <View style={styles.childBox}>
+                <Text style={styles.boxText}>Child</Text>
+              </View>
   
        <View style={styles.rowAligned}>
-      <Text style={styles.rowstyele}>Row</Text></View>
-    <View style={styles.rowBox}> 
-    <View style={styles.childRow}>
-      <Text style={styles.boxText}>Child</Text></View>
-    <View style={styles.childRow}>
-      <Text style={styles.boxText}>Child</Text></View>
-    <View style={styles.childRow}>
-      <Text style={styles.boxText}>Child</Text></View>
+          <Text style={styles.rowstyele}>Row</Text>
+        </View>
+        <View style={styles.rowBox}> 
+          <View style={styles.childRow}>
+            <Text style={styles.boxText}>Child</Text>
+          </View>
+          <View style={styles.childRow}>
+            <Text style={styles.boxText}>Child</Text>
+          </View>
+            <View style={styles.childRow}>
+              <Text style={styles.boxText}>Child</Text>
+            </View>
+      </View>
     </View>
-    </View>
-    </View>
+  </View>
   );
 }
 
